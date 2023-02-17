@@ -8,12 +8,12 @@ int main(void)
 	char small_letter = 'a';
 	char capital_letter = 'A';
 
-	while (small_letter != 'z')
+	while (small_letter <= 'z')
 	{
 		putchar(small_letter);
 		small_letter++;
 	}
-	while (capital_letter != 'Z')
+	while (capital_letter <= 'Z')
 	{
 		putchar(capital_letter);
 		capital_letter++;
