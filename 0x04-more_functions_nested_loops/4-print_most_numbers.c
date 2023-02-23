@@ -13,4 +13,5 @@ void print_most_numbers(void)
 			_puchar(n);
 		n++;
 	}
+	_putchar('\n');
 }
