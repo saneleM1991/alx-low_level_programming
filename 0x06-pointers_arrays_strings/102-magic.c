@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - entry
+ * Return: 9 / 1
+ */
 int main(void)
 {
 	int n;
