@@ -1,5 +1,6 @@
 #include "main.h"
-#include "stdlib.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array - dynamicaly create an array on the heap
