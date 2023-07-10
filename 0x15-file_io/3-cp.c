@@ -61,9 +61,8 @@ int main(int argc, char *argv[])
 }
 
 /**
- * close_fd - handling close error
- * @fd_from: file discriptor fro file reading from
- * @fd_to: file discription for file copying to
+ * close_file - handling close error
+ * @fd: The file descriptor to be closed
  */
 void close_file(int fd)
 {
